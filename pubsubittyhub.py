@@ -4,6 +4,9 @@ A tiny implementation of pubsubhubbub with webhooks.
 Not recommended at scale, but maybe fun for little projects.
 Based off ``watercoolr`` (http://github.com/jcapote/watercoolr).
 """
+__author__ = 'Daniel Lindsley'
+__version__ = ('0', '1', '0')
+
 import httplib2
 import os
 import random

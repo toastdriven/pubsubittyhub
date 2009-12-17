@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='pubsubittyhub',
-    version='0.1',
+    version='0.1.0',
     description='PubSubHubbub via webhooks & itty.',
     author='Daniel Lindsley',
     author_email='daniel@toastdriven.com',

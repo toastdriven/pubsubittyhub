@@ -11,6 +11,7 @@ content = urllib2.urlopen('http://localhost:8080/').read()
 
 print 'Creating a channel...'
 content = urllib2.urlopen('http://localhost:8080/channels', data={}).read()
+print content
 channel_id = json.loads(content)['id']
 
 print "Adding subscriber to channel '%s'..." % channel_id
